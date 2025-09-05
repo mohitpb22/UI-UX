@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Booking Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Book Your Trip</h1>
+</header>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="packages.html">Packages</a>
+  <a href="booking.html">Booking</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact Us</a>
+</nav>
+<div class="container">
+  <form>
+    <label>Name:</label>
+    <input type="text" name="name" required>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Travel Dates:</label>
+    <input type="date" name="start"> to <input type="date" name="end">
+
+    <label>Destination:</label>
+    <select name="destination">
+      <option value="paris">Paris</option>
+      <option value="dubai">Dubai</option>
+      <option value="bali">Bali</option>
+    </select>
+
+    <label>Package:</label>
+    <select name="package">
+      <option value="standard">Standard</option>
+      <option value="deluxe">Deluxe</option>
+      <option value="premium">Premium</option>
+    </select>
+
+    <label>Additional Notes:</label>
+    <textarea rows="4"></textarea>
+
+    <button type="submit">Submit Booking</button>
+  </form>
+</div>
+<footer>
+  <p>&copy; 2025 Dream Travels</p>
+</footer>
+</body>
+</html>
